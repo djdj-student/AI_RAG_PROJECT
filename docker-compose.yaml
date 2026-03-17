@@ -1,0 +1,12 @@
+services:
+  app:
+    build: .
+    ports:
+      - "7887:8501" 
+    # 关键：这让程序能读到放在文件夹里的 API Key
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+    stdin_open: true
+    tty: true

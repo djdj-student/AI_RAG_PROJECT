@@ -1,5 +1,3 @@
-Whitley Sage，这份 README.md 是为你量身定制的。它采用了国际开源项目的标准结构，既展示了你的 AI 理论功底（RAG 逻辑），也展示了你的 工程实践能力（Docker、WSL2、API 集成）。
-你可以直接在 VS Code 中新建一个 README.md 文件，然后把下面的内容复制进去：
 # Docker-based RAG Q&A System
 
 **A professional RAG (Retrieval-Augmented Generation) pipeline integrating local embedding models with cloud-based LLMs for deep academic paper analysis.**
